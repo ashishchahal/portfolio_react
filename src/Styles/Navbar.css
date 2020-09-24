@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  justify-content: flex-end;
+}
+
+.navOption {
+  margin: 5px;
+  padding: 5px;
+}
