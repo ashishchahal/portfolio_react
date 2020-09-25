@@ -3,9 +3,15 @@
   align-items: center;
   position: sticky;
   justify-content: flex-end;
+  background-color: lightgray;
+  height: 10vh;
 }
 
 .navOption {
   margin: 5px;
   padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
