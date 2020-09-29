@@ -8,10 +8,17 @@
 }
 
 .navOption {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__option {
+  flex: 0.8;
   margin: 5px;
   padding: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+}
+
+.navbar__icon {
+  flex: 0.2;
+  height: 50%;
 }

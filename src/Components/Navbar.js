@@ -10,20 +10,39 @@ function Navbar() {
   return (
     <div className="navbar">
       <Link to="/">
-        <HomeIcon />
-        <div className="navOption">Home</div>
+        <div className="navOption">
+          <div className="navbar__icon">
+            <HomeIcon />
+          </div>
+          <div className="navbar__option">Home</div>
+        </div>
       </Link>
       <Link to="/aboutMe">
-        <InfoIcon />
-        <div className="navOption">About Me</div>
+        <div className="navOption">
+          <div className="navbar__icon">
+            <InfoIcon />
+          </div>
+
+          <div className="navbar__option">About Me</div>
+        </div>
       </Link>
       <Link to="/projects">
-        <DevicesIcon />
-        <div className="navOption">Projects</div>
+        <div className="navOption">
+          <div className="navbar__icon">
+            <DevicesIcon />
+          </div>
+
+          <div className="navbar__option">Projects</div>
+        </div>
       </Link>
       <Link to="/contactMe">
-        <ContactsIcon />
-        <div className="navOption">Contact Me</div>
+        <div className="navOption">
+          <div className="navbar__icon">
+            <ContactsIcon />
+          </div>
+
+          <div className="navbar__option">Contact Me</div>
+        </div>
       </Link>
     </div>
   );
